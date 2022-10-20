@@ -1,0 +1,5 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+EXPOSE 80/tcp
+WORKDIR /app
+COPY . ./
+ENTRYPOINT ["./Traeffik.Http.Dynamic.Configuration"]

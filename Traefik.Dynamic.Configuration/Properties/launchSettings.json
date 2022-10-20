@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "WebApplication1": {
+    "Traefik.Http.Dynamic.Configuration": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
